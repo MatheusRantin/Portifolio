@@ -1,0 +1,19 @@
+.presentation{
+    display:flex;
+    justify-content: space-between;
+    border:1px solid;
+    border-radius: 5px;
+    padding:50px;
+    background-image: linear-gradient(gray, black);
+    
+    
+}
+.content-presentation{
+    width:45vw;
+    height: 450px;
+    background-image: linear-gradient(white, gray);
+    text-align: center;
+}
+#img-fate{
+    width:100%
+}
