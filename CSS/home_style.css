@@ -1,19 +1,14 @@
-.presentation{
-    display:flex;
-    justify-content: space-between;
-    border:1px solid;
-    border-radius: 5px;
-    padding:50px;
-    background-image: linear-gradient(gray, black);
-    
-    
+.persona, .content-list-skills{
+    display: inline-block;
 }
-.content-presentation{
-    width:45vw;
-    height: 450px;
-    background-image: linear-gradient(white, gray);
-    text-align: center;
+.list-skills{
+    list-style: none;
 }
-#img-fate{
-    width:100%
+.img-persona{
+    height: 700px;
+    border: 2px gray solid;
+    border-radius: 10px;
+}
+#navbar-profile{
+    
 }

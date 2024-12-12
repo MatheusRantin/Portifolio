@@ -4,19 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/home_style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Portifólio - Matheus Rantin Pereira</title>
 </head>
 <body>
-    
-    <section id="presentation" class="presentation">
-        <div id="text-content-presentation" class="content-presentation">
-            <h1>Bom dia</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar-profile">
+        <div class="collapse navbar-collapse" id="textoNavbar" style="text-align: center;">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Sobre mim <span class="sr-only">(Página atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Histórico Profissional</a>
+            </li>
+          </ul>
         </div>
-        <div id="content-img-presentation" class="content-presentation">
-            <img src="../imgs/Fate_Night.jpg" alt="" id="img-fate">
+      </nav>
+    <section class="profile">
+        <div class="content-presentation">
+            <div class="persona">
+                <h1 class="info-user" style="text-align: center;">Matheus Rantin Pereira</h1>
+                <img src="../imgs/Perfil_meu.png" alt="" class="img-persona">
+            </div>
+            <div class="content-list-skills">
+                <ul class="list-skills">
+                    <li class="item-skill"><span>Nome: </span>Matheus Rantin Pereira</li>
+                    <li class="item-skill"><span>Idade: </span>20 anos</li>
+                    <li class="item-skill"><span>Curso: </span> Cursando Engenharia de Software</li>
+                </ul>
+            </div>
         </div>
     </section>
-
     <script src="../JS/home_script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
